@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from './Button';
 import comma from './Comma';
 import './App.css';
+import WoodBG from './wooden-background.jpg';
 
 
 const App = () => {
@@ -139,8 +140,8 @@ const App = () => {
         }
     };
 
-
     return(
+        
         <div className='App'>
             <div className='display'>{comma(value)}</div>
             <div className='buttons'>
